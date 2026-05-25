@@ -1,7 +1,5 @@
 # Bank Marketing Term Deposit Prediction
 
-**CMPT459: Data Mining, Fall 2024**  
-Anagh Arya — 301416450
 
 ## Problem Definition
 
@@ -220,11 +218,10 @@ Recall more than doubled — critical for a class-imbalanced dataset where missi
 Key findings:
 - Contact method had a surprisingly significant impact on term deposit subscription probability
 - Past campaign outcomes, salary (balance), and occupation were the most important features
-- Class imbalance was the central challenge throughout — addressed via class-weighted SVM and careful hyperparameter tuning
+- Class imbalance was the central challenge throughout, addressed via class-weighted SVM and careful hyperparameter tuning
 - Feature selection delivered a 35% training speedup, enabling practical Bayesian optimization
 - Final tuned model achieves **88.1% ROC-AUC** with dramatically improved recall (0.82)
 
-This project demonstrated the importance of preprocessing, outlier handling, and iterative model refinement on real-world imbalanced datasets.
 
 ---
 
